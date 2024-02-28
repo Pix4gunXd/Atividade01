@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Simples</title>
+
+    <link rel="stylesheet" type="text/css" href="registro.css">
+</head>
+
+
+<body>
+    
+    <a class="icons" href="index.html"><img src="Img/Home_Icon.png" width="40" height="40"></a>
+    <a class="icons" href="registro.html"><img src="Img/Form_Icon.png" width="40" height="40"></a>
+
+    <hr>
+    <h1>Registro</h1>
+    <hr>
+
+    <p>Complete seu cadastro para ter acesso completo ao nosso site!</p>
+
+    <h2>Cadastro</h2>
+    <form>
+        <!--Nome-->
+        <label for="idNome">Nome:</label><br>
+            <input id="idNome" type="text" placeholder="Digite seu nome" required>
+
+        <!--Email-->    
+        <br><br><label for="idEmail">Email</label><br>
+            <input id="Email" type="email" placeholder="Digite seu email" required>
+
+        <!--Senha-->    
+        <br><br><label for="idSenha">Senha</label><br>
+            <input id="idSenha" type="password" placeholder="Digite uma senha" required>
+
+        <!--Radio Idade-->    
+        <br><br><label for="idIdade">Você é...</label><br>
+            <input id="maIdade" type="radio" name="Idade" value="+18">
+            <label for=maIdade>+18</label>  <br>
+            <input id="meIdade" type="radio" name="Idade" value="-18">
+            <label for="meIdade">- 18</label>
+
+        <!--Checkbox-->    
+        <br><br><input id="declaracao" type="checkbox" required>
+        <label  for="declaracao" value="declaracao" name="check">Declaro que preenchi corretamente todas as informações acima</label>
+
+        <!--Submit-->    
+        <br><br> <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>
